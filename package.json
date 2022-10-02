@@ -1,0 +1,26 @@
+{
+    "name": "web-scraping",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kmseonhwa/web-scraping.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/kmseonhwa/web-scraping/issues"
+    },
+    "homepage": "https://github.com/kmseonhwa/web-scraping#readme",
+    "dependencies": {
+        "axios": "^0.27.2",
+        "cheerio": "^1.0.0-rc.12",
+        "cors": "^2.8.5",
+        "express": "^4.18.1"
+    }
+}
